@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1 {
+    text-align: center;
+    background: black;
+    color: white;
+    padding: 20px;
+}
+nav ul {
+    background-color: #7c7d7d;
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+}
+nav li {
+    display: inline-flex;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    width: 200px;
+}
+nav li:hover {
+    background-color: black;
+}
+img {
+    width: 800px;
+    height: 800px;
+    object-fit: cover;
+}
+.contenido {
+    display: flex;
+    margin: 70px;
+}
+.articulos {
+    width: 85%;
+    border-right: 3px solid black;
+}
+.secciones {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+}
+
